@@ -1,0 +1,32 @@
+﻿CHARACTER_SET UTF8
+
+#define ELanguage               ELangKhmer
+
+#define txt_caption_string 	"FlashSMS"
+#define txt_srt_caption_string 	"FlashSMS"
+
+// Comuni
+#define txt_newsms		"Sor Ser SMS"
+#define txt_credits 		"Kati Kun"
+#define txt_exit 		"Jak Jenh"
+
+// Vista About
+#define txt_about 		"FlashSMS"
+#define txt_donate 		"Bang Vipheaka Tien"
+#define txt_req_code 		"Sner Lek Som Gnat:"
+#define txt_don_code 		"Vipheaka Tien Lek Som Gnat:"
+
+// Vista Settings
+#define txt_send 		"Phnher"
+#define txt_settings 		"FlashSMS"
+
+#define txt_phone  		"Nak Toeh Tuol:"
+
+// MESSAGGIO INFO FIRST BOOT
+#define txt_first_boot		"Sab ning dom ner ka kroay pel bang vipheaka tien"
+
+#define txt_really_exit		"Jak Jenh pi FlashSMS?"
+
+// ERRORI
+#define txt_err_no_number	"Pum mien lek nak toeh tuol"
+	

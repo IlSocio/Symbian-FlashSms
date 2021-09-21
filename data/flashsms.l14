@@ -1,0 +1,32 @@
+﻿CHARACTER_SET UTF8
+
+#define ELanguage               ELangTurkish
+
+#define txt_caption_string 	"FlashSMS"
+#define txt_srt_caption_string 	"FlashSMS"
+
+// Comuni
+#define txt_newsms		"Yeni SMS"
+#define txt_credits 		"Ekip"
+#define txt_exit 		"Çýkýþ"
+
+// Vista About
+#define txt_about 		"FlashSMS"
+#define txt_donate 		"Destek ol"
+#define txt_req_code 		"Kayýt ol:"
+#define txt_don_code 		"Destek kodu:"
+
+// Vista Settings
+#define txt_send 		"Gönder"
+#define txt_settings 		"FlashSMS"
+
+#define txt_phone  		"Alýcý:"
+
+// MESSAGGIO INFO FIRST BOOT
+#define txt_first_boot		"Desteðinizin ardýndan Rehber aktif olur"
+
+#define txt_really_exit		"FlashSMS Kapatýlsýnmý?"
+
+// ERRORI
+#define txt_err_no_number	"Alýcý numarasý yok"
+	

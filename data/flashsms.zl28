@@ -1,0 +1,32 @@
+﻿CHARACTER_SET UTF8
+
+#define Elanguage               ELangBosnian
+ 
+#define txt_caption_string 	"FlashSMS"                
+#define txt_srt_caption_string 	"FlashSMS"
+
+// Comuni
+#define txt_newsms		"Novi SMS"
+#define txt_credits 		"Izrazavamo zahvalnost"
+#define txt_exit 		"Izlaz"
+
+// Vista About
+#define txt_about 		"FlashSMS"
+#define txt_donate 		"Donirajte"
+#define txt_req_code 		"Zahtjevana Sifra"
+#define txt_don_code 		"Donacijska Sifra"
+
+// Vista Settings
+#define txt_send 		"Posalji"
+#define txt_settings 		"FlashSMS"
+
+#define txt_phone  		"Primalac"
+
+// MESSAGGIO INFO FIRST BOOT
+#define txt_first_boot		"Nakon davanja priloga bice omogucena podrska za Adresar"
+
+#define txt_really_exit		"Izlaz iz FlashSMS?"
+
+// ERRORI
+#define txt_err_no_number	"Broj primaoca prazan"
+	

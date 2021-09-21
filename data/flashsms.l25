@@ -1,0 +1,32 @@
+﻿CHARACTER_SET UTF8
+
+#define ELanguage               ELangCzech
+
+#define txt_caption_string 	"FlashSMS"
+#define txt_srt_caption_string 	"FlashSMS"
+
+// Comuni
+#define txt_newsms		"Nova SMS"
+#define txt_credits 		"Credits"
+#define txt_exit 		"Konec"
+
+// Vista About
+#define txt_about 		"FlashSMS"
+#define txt_donate 		"Darovat"
+#define txt_req_code 		"Pozadovany kod:"
+#define txt_don_code 		"Darovaci kod:"
+
+// Vista Settings
+#define txt_send 		"Poslat"
+#define txt_settings 		"FlashSMS"
+
+#define txt_phone  		"Prijemce:"
+
+// MESSAGGIO INFO FIRST BOOT
+#define txt_first_boot		"Po darovani bude zpristupnena funkce telefoni seznam"
+
+#define txt_really_exit		"Uzavrit FlashSMS?"
+
+// ERRORI
+#define txt_err_no_number	"Cislo prijemce je prazdne"
+	

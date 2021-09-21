@@ -1,0 +1,34 @@
+﻿CHARACTER_SET UTF8
+
+#define ELanguage               ELangGreek
+
+#define txt_caption_string 	"FlashSMS"
+#define txt_srt_caption_string 	"FlashSMS"
+
+// Comuni
+#define txt_newsms		"Νέο μήνυμα"
+#define txt_credits 		"Δημιουργοί"
+#define txt_exit 		"Έξοδος"
+
+// Vista About
+#define txt_about 		"FlashSMS"
+#define txt_donate 		"Δωρεά"
+#define txt_req_code 		"Αίτηση κωδικού:"
+#define txt_don_code 		"Κωδικός δωρεάς:"
+
+// Vista Settings
+#define txt_send 		"Αποστολή"
+#define txt_settings 		"FlashSMS"
+
+#define txt_phone  		"Αποστολέας:"
+
+// MESSAGGIO INFO FIRST BOOT
+#define txt_first_boot		"Μετά την Δωρεά θα ενεργοποιηθεί η λειτουργία τηλεφ. καταλόγου"
+
+#define txt_really_exit		"Έξοδος απο FlashSMS;"
+
+// ERRORI
+#define txt_err_no_number	"Αριθμός Αποστολέα Κενός"
+
+
+	

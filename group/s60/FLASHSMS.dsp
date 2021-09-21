@@ -1,0 +1,1128 @@
+# Microsoft Developer Studio Project File - Name="FLASHSMS" - Package Owner=<4>
+# Microsoft Developer Studio Generated Build File, Format Version 6.00
+# ** DO NOT EDIT **
+
+# TARGTYPE "Win32 (x86) Dynamic-Link Library" 0x0102
+
+CFG=FLASHSMS - Win32 Uni Debug
+!MESSAGE This is not a valid makefile. To build this project using NMAKE,
+!MESSAGE use the Export Makefile command and run
+!MESSAGE 
+!MESSAGE NMAKE /f "FLASHSMS.mak".
+!MESSAGE 
+!MESSAGE You can specify a configuration when running NMAKE
+!MESSAGE by defining the macro CFG on the command line. For example:
+!MESSAGE 
+!MESSAGE NMAKE /f "FLASHSMS.mak" CFG="FLASHSMS - Win32 Uni Debug"
+!MESSAGE 
+!MESSAGE Possible choices for configuration are:
+!MESSAGE 
+!MESSAGE "FLASHSMS - Win32 Uni Release" (based on\
+ "Win32 (x86) Dynamic-Link Library")
+!MESSAGE "FLASHSMS - Win32 Uni Debug" (based on\
+ "Win32 (x86) Dynamic-Link Library")
+!MESSAGE 
+
+# Begin Project
+# PROP Scc_ProjName ""
+# PROP Scc_LocalPath ""
+CPP=cl.exe
+MTL=midl.exe
+RSC=rc.exe
+
+!IF  "$(CFG)" == "FLASHSMS - Win32 Uni Debug"
+
+# PROP BASE Use_MFC 0
+# PROP BASE Use_Debug_Libraries 1
+# PROP BASE Output_Dir ".\Win32_U0"
+# PROP BASE Intermediate_Dir ".\Win32_U0"
+# PROP Use_MFC 0
+# PROP Use_Debug_Libraries 1
+# PROP Output_Dir "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB"
+# PROP Intermediate_Dir "\Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS\WINS\UDEB"
+# ADD CPP /nologo /Zp4 /GF /MDd /W4 /Zi /Od /X /I "\ONLINE\FLASHSMS102\DATA" /I "\ONLINE\FLASHSMS102\INC" /I "\ONLINE\FLASHSMS102\INC\S60" /I "\Symbian\8.0a\S60_2nd_FP2\EPOC32\INCLUDE" /D "__SYMBIAN32__" /D "__VC32__" /D "__WINS__" /D "__DLL__" /D "_DEBUG" /D "_UNICODE" /FR /Fd"\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS.PDB" /c
+# ADD MTL /nologo /D "_DEBUG" /mktyplib203 /win32
+# ADD BASE RSC /l 0x809
+# ADD RSC /l 0x809 /d "_DEBUG"
+BSC32=bscmake.exe
+# ADD BSC32 /nologo
+LINK32=link.exe
+# ADD BASE LINK32 /machine:IX86
+# ADD LINK32 "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\EDLL.LIB" "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\flogger.lib" "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\cntmodel.lib" "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\euser.lib" "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\apparc.lib" "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\cone.lib" "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\eikcore.lib" "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\eikcoctl.lib" "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\avkon.lib" "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\eikdlg.lib" "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\eikctl.lib" "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\msgs.lib" "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\smcm.lib" "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\gsmu.lib" "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\mtur.lib" "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\commonengine.lib" "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\fbscli.lib" "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\pbkview.lib" "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\pbkeng.lib" "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\etext.lib" "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\etel.lib" "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\efsrv.lib" "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\etelmm.lib" "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\commdb.lib" "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\estor.lib" "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\bafl.lib" "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\egul.lib" "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\openfix.lib" "\Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS\WINS\UDEB\FLASHSMS.exp" /nologo /entry:"_E32Dll" /subsystem:windows /dll /pdb:"\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS.pdb" /debug /machine:IX86 /nodefaultlib /include:"?_E32Dll@@YGHPAXI0@Z" /out:"\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS.APP" /WARN:3
+# SUBTRACT LINK32 /pdb:none
+# Begin Special Build Tool
+SOURCE=$(InputPath)
+PreLink_Cmds=echo Doing first-stage link by name\
+	nmake -nologo -f "\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS.SUP.MAKE" PRELINKUDEB\
+	if errorlevel 1 nmake -nologo -f "\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS.SUP.MAKE" STOPLINKUDEB 
+PostBuild_Cmds=nmake -nologo -f "\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS.SUP.MAKE" POSTBUILDUDEB
+# End Special Build Tool
+
+!ELSEIF  "$(CFG)" == "FLASHSMS - Win32 Uni Release"
+
+# PROP BASE Use_MFC 0
+# PROP BASE Use_Debug_Libraries 0
+# PROP BASE Output_Dir ".\Win32_Un"
+# PROP BASE Intermediate_Dir ".\Win32_Un"
+# PROP Use_MFC 0
+# PROP Use_Debug_Libraries 0
+# PROP Output_Dir "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UREL"
+# PROP Intermediate_Dir "\Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS\WINS\UREL"
+# ADD CPP /nologo /Zp4 /GF /MD /W4 /O1 /Op /X /I "\ONLINE\FLASHSMS102\DATA" /I "\ONLINE\FLASHSMS102\INC" /I "\ONLINE\FLASHSMS102\INC\S60" /I "\Symbian\8.0a\S60_2nd_FP2\EPOC32\INCLUDE" /D "__SYMBIAN32__" /D "__VC32__" /D "__WINS__" /D "__DLL__" /D "NDEBUG" /D "_UNICODE" /c
+# ADD MTL /nologo /mktyplib203 /D /win32
+# ADD BASE RSC /l 0x809
+# ADD RSC /l 0x809 /d "NDEBUG"
+BSC32=bscmake.exe
+# ADD BSC32 /nologo
+LINK32=link.exe
+# ADD BASE LINK32 /machine:IX86
+# ADD LINK32 "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UREL\EDLL.LIB" "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\flogger.lib" "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\cntmodel.lib" "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\euser.lib" "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\apparc.lib" "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\cone.lib" "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\eikcore.lib" "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\eikcoctl.lib" "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\avkon.lib" "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\eikdlg.lib" "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\eikctl.lib" "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\msgs.lib" "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\smcm.lib" "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\gsmu.lib" "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\mtur.lib" "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\commonengine.lib" "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\fbscli.lib" "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\pbkview.lib" "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\pbkeng.lib" "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\etext.lib" "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\etel.lib" "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\efsrv.lib" "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\etelmm.lib" "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\commdb.lib" "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\estor.lib" "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\bafl.lib" "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\egul.lib" "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\openfix.lib" "\Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS\WINS\UREL\FLASHSMS.exp" /nologo /entry:"_E32Dll" /subsystem:windows /dll /machine:IX86 /nodefaultlib /include:"?_E32Dll@@YGHPAXI0@Z" /out:"\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UREL\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS.APP" /WARN:3
+# Begin Special Build Tool
+SOURCE=$(InputPath)
+PreLink_Cmds=echo Doing first-stage link by name\
+	nmake -nologo -f "\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS.SUP.MAKE" PRELINKUREL\
+	if errorlevel 1 nmake -nologo -f "\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS.SUP.MAKE" STOPLINKUREL 
+PostBuild_Cmds=nmake -nologo -f "\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS.SUP.MAKE" POSTBUILDUREL
+# End Special Build Tool
+
+!ENDIF 
+
+# Begin Target
+
+# Name "FLASHSMS - Win32 Uni Debug"
+# Name "FLASHSMS - Win32 Uni Release"
+# Begin Group "Source Files"
+
+# PROP Default_Filter "cpp;c;cxx;rc;def;r;odl;hpj;bat;for;f90"
+# Begin Source File
+
+SOURCE=\ONLINE\FLASHSMS102\DATA\S60\Flashsms.rss
+USERDEP__FLASHSMS="\ONLINE\FLASHSMS102\DATA\FLASHSMS.L01"\
+ "\ONLINE\FLASHSMS102\DATA\FLASHSMS.LOC"\
+ "\ONLINE\FLASHSMS102\INC\S60\FLASHSMS.HRH"
+
+!IF  "$(CFG)" == "FLASHSMS - Win32 Uni Debug"
+
+# PROP Intermediate_Dir "\Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS\WINS"
+# Begin Custom Build - Building resources from Flashsms.rss
+InputPath=\ONLINE\FLASHSMS102\DATA\S60\Flashsms.rss
+
+BuildCmds= \
+	nmake -nologo -f "\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS.SUP.MAKE"\
+  "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS.r"
+
+"\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS.r01" : $(SOURCE) "$(INTDIR)"\
+ "$(OUTDIR)"
+   $(BuildCmds)
+# End Custom Build
+
+!ELSEIF  "$(CFG)" == "FLASHSMS - Win32 Uni Release"
+
+# PROP Intermediate_Dir "\Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS\WINS"
+# Begin Custom Build - Building resources from Flashsms.rss
+InputPath=\ONLINE\FLASHSMS102\DATA\S60\Flashsms.rss
+
+BuildCmds= \
+	nmake -nologo -f "\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS.SUP.MAKE"\
+  "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UREL\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS.r"
+
+"\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UREL\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS.r01" : $(SOURCE) "$(INTDIR)"\
+ "$(OUTDIR)"
+   $(BuildCmds)
+# End Custom Build
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=\ONLINE\FLASHSMS102\DATA\S60\Flashsms.rss
+USERDEP__FLASHSMS="\ONLINE\FLASHSMS102\DATA\FLASHSMS.L02"\
+ "\ONLINE\FLASHSMS102\DATA\FLASHSMS.LOC"\
+ "\ONLINE\FLASHSMS102\INC\S60\FLASHSMS.HRH"
+
+!IF  "$(CFG)" == "FLASHSMS - Win32 Uni Debug"
+
+# PROP Intermediate_Dir "\Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS\WINS"
+# Begin Custom Build - Building resources from Flashsms.rss
+InputPath=\ONLINE\FLASHSMS102\DATA\S60\Flashsms.rss
+
+BuildCmds= \
+	nmake -nologo -f "\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS.SUP.MAKE"\
+  "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS.r"
+
+"\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS.r02" : $(SOURCE) "$(INTDIR)"\
+ "$(OUTDIR)"
+   $(BuildCmds)
+# End Custom Build
+
+!ELSEIF  "$(CFG)" == "FLASHSMS - Win32 Uni Release"
+
+# PROP Intermediate_Dir "\Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS\WINS"
+# Begin Custom Build - Building resources from Flashsms.rss
+InputPath=\ONLINE\FLASHSMS102\DATA\S60\Flashsms.rss
+
+BuildCmds= \
+	nmake -nologo -f "\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS.SUP.MAKE"\
+  "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UREL\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS.r"
+
+"\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UREL\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS.r02" : $(SOURCE) "$(INTDIR)"\
+ "$(OUTDIR)"
+   $(BuildCmds)
+# End Custom Build
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=\ONLINE\FLASHSMS102\DATA\S60\Flashsms.rss
+USERDEP__FLASHSMS="\ONLINE\FLASHSMS102\DATA\FLASHSMS.L04"\
+ "\ONLINE\FLASHSMS102\DATA\FLASHSMS.LOC"\
+ "\ONLINE\FLASHSMS102\INC\S60\FLASHSMS.HRH"
+
+!IF  "$(CFG)" == "FLASHSMS - Win32 Uni Debug"
+
+# PROP Intermediate_Dir "\Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS\WINS"
+# Begin Custom Build - Building resources from Flashsms.rss
+InputPath=\ONLINE\FLASHSMS102\DATA\S60\Flashsms.rss
+
+BuildCmds= \
+	nmake -nologo -f "\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS.SUP.MAKE"\
+  "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS.r"
+
+"\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS.r04" : $(SOURCE) "$(INTDIR)"\
+ "$(OUTDIR)"
+   $(BuildCmds)
+# End Custom Build
+
+!ELSEIF  "$(CFG)" == "FLASHSMS - Win32 Uni Release"
+
+# PROP Intermediate_Dir "\Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS\WINS"
+# Begin Custom Build - Building resources from Flashsms.rss
+InputPath=\ONLINE\FLASHSMS102\DATA\S60\Flashsms.rss
+
+BuildCmds= \
+	nmake -nologo -f "\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS.SUP.MAKE"\
+  "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UREL\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS.r"
+
+"\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UREL\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS.r04" : $(SOURCE) "$(INTDIR)"\
+ "$(OUTDIR)"
+   $(BuildCmds)
+# End Custom Build
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=\ONLINE\FLASHSMS102\DATA\S60\Flashsms.rss
+USERDEP__FLASHSMS="\ONLINE\FLASHSMS102\DATA\FLASHSMS.L05"\
+ "\ONLINE\FLASHSMS102\DATA\FLASHSMS.LOC"\
+ "\ONLINE\FLASHSMS102\INC\S60\FLASHSMS.HRH"
+
+!IF  "$(CFG)" == "FLASHSMS - Win32 Uni Debug"
+
+# PROP Intermediate_Dir "\Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS\WINS"
+# Begin Custom Build - Building resources from Flashsms.rss
+InputPath=\ONLINE\FLASHSMS102\DATA\S60\Flashsms.rss
+
+BuildCmds= \
+	nmake -nologo -f "\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS.SUP.MAKE"\
+  "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS.r"
+
+"\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS.r05" : $(SOURCE) "$(INTDIR)"\
+ "$(OUTDIR)"
+   $(BuildCmds)
+# End Custom Build
+
+!ELSEIF  "$(CFG)" == "FLASHSMS - Win32 Uni Release"
+
+# PROP Intermediate_Dir "\Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS\WINS"
+# Begin Custom Build - Building resources from Flashsms.rss
+InputPath=\ONLINE\FLASHSMS102\DATA\S60\Flashsms.rss
+
+BuildCmds= \
+	nmake -nologo -f "\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS.SUP.MAKE"\
+  "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UREL\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS.r"
+
+"\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UREL\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS.r05" : $(SOURCE) "$(INTDIR)"\
+ "$(OUTDIR)"
+   $(BuildCmds)
+# End Custom Build
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=\ONLINE\FLASHSMS102\DATA\S60\Flashsms.rss
+USERDEP__FLASHSMS="\ONLINE\FLASHSMS102\DATA\FLASHSMS.L13"\
+ "\ONLINE\FLASHSMS102\DATA\FLASHSMS.LOC"\
+ "\ONLINE\FLASHSMS102\INC\S60\FLASHSMS.HRH"
+
+!IF  "$(CFG)" == "FLASHSMS - Win32 Uni Debug"
+
+# PROP Intermediate_Dir "\Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS\WINS"
+# Begin Custom Build - Building resources from Flashsms.rss
+InputPath=\ONLINE\FLASHSMS102\DATA\S60\Flashsms.rss
+
+BuildCmds= \
+	nmake -nologo -f "\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS.SUP.MAKE"\
+  "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS.r"
+
+"\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS.r13" : $(SOURCE) "$(INTDIR)"\
+ "$(OUTDIR)"
+   $(BuildCmds)
+# End Custom Build
+
+!ELSEIF  "$(CFG)" == "FLASHSMS - Win32 Uni Release"
+
+# PROP Intermediate_Dir "\Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS\WINS"
+# Begin Custom Build - Building resources from Flashsms.rss
+InputPath=\ONLINE\FLASHSMS102\DATA\S60\Flashsms.rss
+
+BuildCmds= \
+	nmake -nologo -f "\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS.SUP.MAKE"\
+  "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UREL\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS.r"
+
+"\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UREL\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS.r13" : $(SOURCE) "$(INTDIR)"\
+ "$(OUTDIR)"
+   $(BuildCmds)
+# End Custom Build
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=\ONLINE\FLASHSMS102\DATA\S60\Flashsms.rss
+USERDEP__FLASHSMS="\ONLINE\FLASHSMS102\DATA\FLASHSMS.L14"\
+ "\ONLINE\FLASHSMS102\DATA\FLASHSMS.LOC"\
+ "\ONLINE\FLASHSMS102\INC\S60\FLASHSMS.HRH"
+
+!IF  "$(CFG)" == "FLASHSMS - Win32 Uni Debug"
+
+# PROP Intermediate_Dir "\Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS\WINS"
+# Begin Custom Build - Building resources from Flashsms.rss
+InputPath=\ONLINE\FLASHSMS102\DATA\S60\Flashsms.rss
+
+BuildCmds= \
+	nmake -nologo -f "\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS.SUP.MAKE"\
+  "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS.r"
+
+"\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS.r14" : $(SOURCE) "$(INTDIR)"\
+ "$(OUTDIR)"
+   $(BuildCmds)
+# End Custom Build
+
+!ELSEIF  "$(CFG)" == "FLASHSMS - Win32 Uni Release"
+
+# PROP Intermediate_Dir "\Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS\WINS"
+# Begin Custom Build - Building resources from Flashsms.rss
+InputPath=\ONLINE\FLASHSMS102\DATA\S60\Flashsms.rss
+
+BuildCmds= \
+	nmake -nologo -f "\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS.SUP.MAKE"\
+  "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UREL\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS.r"
+
+"\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UREL\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS.r14" : $(SOURCE) "$(INTDIR)"\
+ "$(OUTDIR)"
+   $(BuildCmds)
+# End Custom Build
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=\ONLINE\FLASHSMS102\DATA\S60\Flashsms.rss
+USERDEP__FLASHSMS="\ONLINE\FLASHSMS102\DATA\FLASHSMS.L16"\
+ "\ONLINE\FLASHSMS102\DATA\FLASHSMS.LOC"\
+ "\ONLINE\FLASHSMS102\INC\S60\FLASHSMS.HRH"
+
+!IF  "$(CFG)" == "FLASHSMS - Win32 Uni Debug"
+
+# PROP Intermediate_Dir "\Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS\WINS"
+# Begin Custom Build - Building resources from Flashsms.rss
+InputPath=\ONLINE\FLASHSMS102\DATA\S60\Flashsms.rss
+
+BuildCmds= \
+	nmake -nologo -f "\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS.SUP.MAKE"\
+  "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS.r"
+
+"\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS.r16" : $(SOURCE) "$(INTDIR)"\
+ "$(OUTDIR)"
+   $(BuildCmds)
+# End Custom Build
+
+!ELSEIF  "$(CFG)" == "FLASHSMS - Win32 Uni Release"
+
+# PROP Intermediate_Dir "\Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS\WINS"
+# Begin Custom Build - Building resources from Flashsms.rss
+InputPath=\ONLINE\FLASHSMS102\DATA\S60\Flashsms.rss
+
+BuildCmds= \
+	nmake -nologo -f "\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS.SUP.MAKE"\
+  "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UREL\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS.r"
+
+"\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UREL\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS.r16" : $(SOURCE) "$(INTDIR)"\
+ "$(OUTDIR)"
+   $(BuildCmds)
+# End Custom Build
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=\ONLINE\FLASHSMS102\DATA\S60\Flashsms.rss
+USERDEP__FLASHSMS="\ONLINE\FLASHSMS102\DATA\FLASHSMS.L18"\
+ "\ONLINE\FLASHSMS102\DATA\FLASHSMS.LOC"\
+ "\ONLINE\FLASHSMS102\INC\S60\FLASHSMS.HRH"
+
+!IF  "$(CFG)" == "FLASHSMS - Win32 Uni Debug"
+
+# PROP Intermediate_Dir "\Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS\WINS"
+# Begin Custom Build - Building resources from Flashsms.rss
+InputPath=\ONLINE\FLASHSMS102\DATA\S60\Flashsms.rss
+
+BuildCmds= \
+	nmake -nologo -f "\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS.SUP.MAKE"\
+  "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS.r"
+
+"\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS.r18" : $(SOURCE) "$(INTDIR)"\
+ "$(OUTDIR)"
+   $(BuildCmds)
+# End Custom Build
+
+!ELSEIF  "$(CFG)" == "FLASHSMS - Win32 Uni Release"
+
+# PROP Intermediate_Dir "\Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS\WINS"
+# Begin Custom Build - Building resources from Flashsms.rss
+InputPath=\ONLINE\FLASHSMS102\DATA\S60\Flashsms.rss
+
+BuildCmds= \
+	nmake -nologo -f "\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS.SUP.MAKE"\
+  "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UREL\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS.r"
+
+"\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UREL\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS.r18" : $(SOURCE) "$(INTDIR)"\
+ "$(OUTDIR)"
+   $(BuildCmds)
+# End Custom Build
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=\ONLINE\FLASHSMS102\DATA\S60\Flashsms.rss
+USERDEP__FLASHSMS="\ONLINE\FLASHSMS102\DATA\FLASHSMS.L25"\
+ "\ONLINE\FLASHSMS102\DATA\FLASHSMS.LOC"\
+ "\ONLINE\FLASHSMS102\INC\S60\FLASHSMS.HRH"
+
+!IF  "$(CFG)" == "FLASHSMS - Win32 Uni Debug"
+
+# PROP Intermediate_Dir "\Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS\WINS"
+# Begin Custom Build - Building resources from Flashsms.rss
+InputPath=\ONLINE\FLASHSMS102\DATA\S60\Flashsms.rss
+
+BuildCmds= \
+	nmake -nologo -f "\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS.SUP.MAKE"\
+  "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS.r"
+
+"\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS.r25" : $(SOURCE) "$(INTDIR)"\
+ "$(OUTDIR)"
+   $(BuildCmds)
+# End Custom Build
+
+!ELSEIF  "$(CFG)" == "FLASHSMS - Win32 Uni Release"
+
+# PROP Intermediate_Dir "\Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS\WINS"
+# Begin Custom Build - Building resources from Flashsms.rss
+InputPath=\ONLINE\FLASHSMS102\DATA\S60\Flashsms.rss
+
+BuildCmds= \
+	nmake -nologo -f "\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS.SUP.MAKE"\
+  "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UREL\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS.r"
+
+"\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UREL\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS.r25" : $(SOURCE) "$(INTDIR)"\
+ "$(OUTDIR)"
+   $(BuildCmds)
+# End Custom Build
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=\ONLINE\FLASHSMS102\DATA\S60\Flashsms.rss
+USERDEP__FLASHSMS="\ONLINE\FLASHSMS102\DATA\FLASHSMS.L54"\
+ "\ONLINE\FLASHSMS102\DATA\FLASHSMS.LOC"\
+ "\ONLINE\FLASHSMS102\INC\S60\FLASHSMS.HRH"
+
+!IF  "$(CFG)" == "FLASHSMS - Win32 Uni Debug"
+
+# PROP Intermediate_Dir "\Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS\WINS"
+# Begin Custom Build - Building resources from Flashsms.rss
+InputPath=\ONLINE\FLASHSMS102\DATA\S60\Flashsms.rss
+
+BuildCmds= \
+	nmake -nologo -f "\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS.SUP.MAKE"\
+  "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS.r"
+
+"\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS.r54" : $(SOURCE) "$(INTDIR)"\
+ "$(OUTDIR)"
+   $(BuildCmds)
+# End Custom Build
+
+!ELSEIF  "$(CFG)" == "FLASHSMS - Win32 Uni Release"
+
+# PROP Intermediate_Dir "\Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS\WINS"
+# Begin Custom Build - Building resources from Flashsms.rss
+InputPath=\ONLINE\FLASHSMS102\DATA\S60\Flashsms.rss
+
+BuildCmds= \
+	nmake -nologo -f "\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS.SUP.MAKE"\
+  "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UREL\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS.r"
+
+"\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UREL\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS.r54" : $(SOURCE) "$(INTDIR)"\
+ "$(OUTDIR)"
+   $(BuildCmds)
+# End Custom Build
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=\ONLINE\FLASHSMS102\DATA\S60\Flashsms.rss
+USERDEP__FLASHSMS="\ONLINE\FLASHSMS102\DATA\FLASHSMS.L64"\
+ "\ONLINE\FLASHSMS102\DATA\FLASHSMS.LOC"\
+ "\ONLINE\FLASHSMS102\INC\S60\FLASHSMS.HRH"
+
+!IF  "$(CFG)" == "FLASHSMS - Win32 Uni Debug"
+
+# PROP Intermediate_Dir "\Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS\WINS"
+# Begin Custom Build - Building resources from Flashsms.rss
+InputPath=\ONLINE\FLASHSMS102\DATA\S60\Flashsms.rss
+
+BuildCmds= \
+	nmake -nologo -f "\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS.SUP.MAKE"\
+  "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS.r"
+
+"\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS.r64" : $(SOURCE) "$(INTDIR)"\
+ "$(OUTDIR)"
+   $(BuildCmds)
+# End Custom Build
+
+!ELSEIF  "$(CFG)" == "FLASHSMS - Win32 Uni Release"
+
+# PROP Intermediate_Dir "\Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS\WINS"
+# Begin Custom Build - Building resources from Flashsms.rss
+InputPath=\ONLINE\FLASHSMS102\DATA\S60\Flashsms.rss
+
+BuildCmds= \
+	nmake -nologo -f "\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS.SUP.MAKE"\
+  "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UREL\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS.r"
+
+"\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UREL\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS.r64" : $(SOURCE) "$(INTDIR)"\
+ "$(OUTDIR)"
+   $(BuildCmds)
+# End Custom Build
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=\ONLINE\FLASHSMS102\DATA\S60\Flashsms_caption.rss
+USERDEP__FLASHSMS_CAPTION="\ONLINE\FLASHSMS102\DATA\FLASHSMS.L01"\
+ "\ONLINE\FLASHSMS102\DATA\FLASHSMS.LOC"
+
+!IF  "$(CFG)" == "FLASHSMS - Win32 Uni Debug"
+
+# PROP Intermediate_Dir "\Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS\WINS"
+# Begin Custom Build - Building resources from Flashsms_caption.rss
+InputPath=\ONLINE\FLASHSMS102\DATA\S60\Flashsms_caption.rss
+
+BuildCmds= \
+	nmake -nologo -f "\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS.SUP.MAKE"\
+  "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS_CAPTION.r"
+
+"\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS_CAPTION.r01" : $(SOURCE) "$(INTDIR)"\
+ "$(OUTDIR)"
+   $(BuildCmds)
+# End Custom Build
+
+!ELSEIF  "$(CFG)" == "FLASHSMS - Win32 Uni Release"
+
+# PROP Intermediate_Dir "\Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS\WINS"
+# Begin Custom Build - Building resources from Flashsms_caption.rss
+InputPath=\ONLINE\FLASHSMS102\DATA\S60\Flashsms_caption.rss
+
+BuildCmds= \
+	nmake -nologo -f "\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS.SUP.MAKE"\
+  "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UREL\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS_CAPTION.r"
+
+"\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UREL\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS_CAPTION.r01" : $(SOURCE) "$(INTDIR)"\
+ "$(OUTDIR)"
+   $(BuildCmds)
+# End Custom Build
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=\ONLINE\FLASHSMS102\DATA\S60\Flashsms_caption.rss
+USERDEP__FLASHSMS_CAPTION="\ONLINE\FLASHSMS102\DATA\FLASHSMS.L02"\
+ "\ONLINE\FLASHSMS102\DATA\FLASHSMS.LOC"
+
+!IF  "$(CFG)" == "FLASHSMS - Win32 Uni Debug"
+
+# PROP Intermediate_Dir "\Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS\WINS"
+# Begin Custom Build - Building resources from Flashsms_caption.rss
+InputPath=\ONLINE\FLASHSMS102\DATA\S60\Flashsms_caption.rss
+
+BuildCmds= \
+	nmake -nologo -f "\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS.SUP.MAKE"\
+  "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS_CAPTION.r"
+
+"\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS_CAPTION.r02" : $(SOURCE) "$(INTDIR)"\
+ "$(OUTDIR)"
+   $(BuildCmds)
+# End Custom Build
+
+!ELSEIF  "$(CFG)" == "FLASHSMS - Win32 Uni Release"
+
+# PROP Intermediate_Dir "\Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS\WINS"
+# Begin Custom Build - Building resources from Flashsms_caption.rss
+InputPath=\ONLINE\FLASHSMS102\DATA\S60\Flashsms_caption.rss
+
+BuildCmds= \
+	nmake -nologo -f "\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS.SUP.MAKE"\
+  "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UREL\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS_CAPTION.r"
+
+"\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UREL\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS_CAPTION.r02" : $(SOURCE) "$(INTDIR)"\
+ "$(OUTDIR)"
+   $(BuildCmds)
+# End Custom Build
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=\ONLINE\FLASHSMS102\DATA\S60\Flashsms_caption.rss
+USERDEP__FLASHSMS_CAPTION="\ONLINE\FLASHSMS102\DATA\FLASHSMS.L04"\
+ "\ONLINE\FLASHSMS102\DATA\FLASHSMS.LOC"
+
+!IF  "$(CFG)" == "FLASHSMS - Win32 Uni Debug"
+
+# PROP Intermediate_Dir "\Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS\WINS"
+# Begin Custom Build - Building resources from Flashsms_caption.rss
+InputPath=\ONLINE\FLASHSMS102\DATA\S60\Flashsms_caption.rss
+
+BuildCmds= \
+	nmake -nologo -f "\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS.SUP.MAKE"\
+  "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS_CAPTION.r"
+
+"\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS_CAPTION.r04" : $(SOURCE) "$(INTDIR)"\
+ "$(OUTDIR)"
+   $(BuildCmds)
+# End Custom Build
+
+!ELSEIF  "$(CFG)" == "FLASHSMS - Win32 Uni Release"
+
+# PROP Intermediate_Dir "\Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS\WINS"
+# Begin Custom Build - Building resources from Flashsms_caption.rss
+InputPath=\ONLINE\FLASHSMS102\DATA\S60\Flashsms_caption.rss
+
+BuildCmds= \
+	nmake -nologo -f "\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS.SUP.MAKE"\
+  "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UREL\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS_CAPTION.r"
+
+"\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UREL\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS_CAPTION.r04" : $(SOURCE) "$(INTDIR)"\
+ "$(OUTDIR)"
+   $(BuildCmds)
+# End Custom Build
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=\ONLINE\FLASHSMS102\DATA\S60\Flashsms_caption.rss
+USERDEP__FLASHSMS_CAPTION="\ONLINE\FLASHSMS102\DATA\FLASHSMS.L05"\
+ "\ONLINE\FLASHSMS102\DATA\FLASHSMS.LOC"
+
+!IF  "$(CFG)" == "FLASHSMS - Win32 Uni Debug"
+
+# PROP Intermediate_Dir "\Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS\WINS"
+# Begin Custom Build - Building resources from Flashsms_caption.rss
+InputPath=\ONLINE\FLASHSMS102\DATA\S60\Flashsms_caption.rss
+
+BuildCmds= \
+	nmake -nologo -f "\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS.SUP.MAKE"\
+  "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS_CAPTION.r"
+
+"\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS_CAPTION.r05" : $(SOURCE) "$(INTDIR)"\
+ "$(OUTDIR)"
+   $(BuildCmds)
+# End Custom Build
+
+!ELSEIF  "$(CFG)" == "FLASHSMS - Win32 Uni Release"
+
+# PROP Intermediate_Dir "\Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS\WINS"
+# Begin Custom Build - Building resources from Flashsms_caption.rss
+InputPath=\ONLINE\FLASHSMS102\DATA\S60\Flashsms_caption.rss
+
+BuildCmds= \
+	nmake -nologo -f "\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS.SUP.MAKE"\
+  "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UREL\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS_CAPTION.r"
+
+"\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UREL\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS_CAPTION.r05" : $(SOURCE) "$(INTDIR)"\
+ "$(OUTDIR)"
+   $(BuildCmds)
+# End Custom Build
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=\ONLINE\FLASHSMS102\DATA\S60\Flashsms_caption.rss
+USERDEP__FLASHSMS_CAPTION="\ONLINE\FLASHSMS102\DATA\FLASHSMS.L13"\
+ "\ONLINE\FLASHSMS102\DATA\FLASHSMS.LOC"
+
+!IF  "$(CFG)" == "FLASHSMS - Win32 Uni Debug"
+
+# PROP Intermediate_Dir "\Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS\WINS"
+# Begin Custom Build - Building resources from Flashsms_caption.rss
+InputPath=\ONLINE\FLASHSMS102\DATA\S60\Flashsms_caption.rss
+
+BuildCmds= \
+	nmake -nologo -f "\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS.SUP.MAKE"\
+  "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS_CAPTION.r"
+
+"\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS_CAPTION.r13" : $(SOURCE) "$(INTDIR)"\
+ "$(OUTDIR)"
+   $(BuildCmds)
+# End Custom Build
+
+!ELSEIF  "$(CFG)" == "FLASHSMS - Win32 Uni Release"
+
+# PROP Intermediate_Dir "\Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS\WINS"
+# Begin Custom Build - Building resources from Flashsms_caption.rss
+InputPath=\ONLINE\FLASHSMS102\DATA\S60\Flashsms_caption.rss
+
+BuildCmds= \
+	nmake -nologo -f "\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS.SUP.MAKE"\
+  "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UREL\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS_CAPTION.r"
+
+"\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UREL\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS_CAPTION.r13" : $(SOURCE) "$(INTDIR)"\
+ "$(OUTDIR)"
+   $(BuildCmds)
+# End Custom Build
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=\ONLINE\FLASHSMS102\DATA\S60\Flashsms_caption.rss
+USERDEP__FLASHSMS_CAPTION="\ONLINE\FLASHSMS102\DATA\FLASHSMS.L14"\
+ "\ONLINE\FLASHSMS102\DATA\FLASHSMS.LOC"
+
+!IF  "$(CFG)" == "FLASHSMS - Win32 Uni Debug"
+
+# PROP Intermediate_Dir "\Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS\WINS"
+# Begin Custom Build - Building resources from Flashsms_caption.rss
+InputPath=\ONLINE\FLASHSMS102\DATA\S60\Flashsms_caption.rss
+
+BuildCmds= \
+	nmake -nologo -f "\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS.SUP.MAKE"\
+  "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS_CAPTION.r"
+
+"\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS_CAPTION.r14" : $(SOURCE) "$(INTDIR)"\
+ "$(OUTDIR)"
+   $(BuildCmds)
+# End Custom Build
+
+!ELSEIF  "$(CFG)" == "FLASHSMS - Win32 Uni Release"
+
+# PROP Intermediate_Dir "\Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS\WINS"
+# Begin Custom Build - Building resources from Flashsms_caption.rss
+InputPath=\ONLINE\FLASHSMS102\DATA\S60\Flashsms_caption.rss
+
+BuildCmds= \
+	nmake -nologo -f "\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS.SUP.MAKE"\
+  "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UREL\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS_CAPTION.r"
+
+"\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UREL\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS_CAPTION.r14" : $(SOURCE) "$(INTDIR)"\
+ "$(OUTDIR)"
+   $(BuildCmds)
+# End Custom Build
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=\ONLINE\FLASHSMS102\DATA\S60\Flashsms_caption.rss
+USERDEP__FLASHSMS_CAPTION="\ONLINE\FLASHSMS102\DATA\FLASHSMS.L16"\
+ "\ONLINE\FLASHSMS102\DATA\FLASHSMS.LOC"
+
+!IF  "$(CFG)" == "FLASHSMS - Win32 Uni Debug"
+
+# PROP Intermediate_Dir "\Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS\WINS"
+# Begin Custom Build - Building resources from Flashsms_caption.rss
+InputPath=\ONLINE\FLASHSMS102\DATA\S60\Flashsms_caption.rss
+
+BuildCmds= \
+	nmake -nologo -f "\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS.SUP.MAKE"\
+  "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS_CAPTION.r"
+
+"\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS_CAPTION.r16" : $(SOURCE) "$(INTDIR)"\
+ "$(OUTDIR)"
+   $(BuildCmds)
+# End Custom Build
+
+!ELSEIF  "$(CFG)" == "FLASHSMS - Win32 Uni Release"
+
+# PROP Intermediate_Dir "\Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS\WINS"
+# Begin Custom Build - Building resources from Flashsms_caption.rss
+InputPath=\ONLINE\FLASHSMS102\DATA\S60\Flashsms_caption.rss
+
+BuildCmds= \
+	nmake -nologo -f "\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS.SUP.MAKE"\
+  "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UREL\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS_CAPTION.r"
+
+"\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UREL\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS_CAPTION.r16" : $(SOURCE) "$(INTDIR)"\
+ "$(OUTDIR)"
+   $(BuildCmds)
+# End Custom Build
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=\ONLINE\FLASHSMS102\DATA\S60\Flashsms_caption.rss
+USERDEP__FLASHSMS_CAPTION="\ONLINE\FLASHSMS102\DATA\FLASHSMS.L18"\
+ "\ONLINE\FLASHSMS102\DATA\FLASHSMS.LOC"
+
+!IF  "$(CFG)" == "FLASHSMS - Win32 Uni Debug"
+
+# PROP Intermediate_Dir "\Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS\WINS"
+# Begin Custom Build - Building resources from Flashsms_caption.rss
+InputPath=\ONLINE\FLASHSMS102\DATA\S60\Flashsms_caption.rss
+
+BuildCmds= \
+	nmake -nologo -f "\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS.SUP.MAKE"\
+  "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS_CAPTION.r"
+
+"\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS_CAPTION.r18" : $(SOURCE) "$(INTDIR)"\
+ "$(OUTDIR)"
+   $(BuildCmds)
+# End Custom Build
+
+!ELSEIF  "$(CFG)" == "FLASHSMS - Win32 Uni Release"
+
+# PROP Intermediate_Dir "\Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS\WINS"
+# Begin Custom Build - Building resources from Flashsms_caption.rss
+InputPath=\ONLINE\FLASHSMS102\DATA\S60\Flashsms_caption.rss
+
+BuildCmds= \
+	nmake -nologo -f "\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS.SUP.MAKE"\
+  "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UREL\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS_CAPTION.r"
+
+"\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UREL\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS_CAPTION.r18" : $(SOURCE) "$(INTDIR)"\
+ "$(OUTDIR)"
+   $(BuildCmds)
+# End Custom Build
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=\ONLINE\FLASHSMS102\DATA\S60\Flashsms_caption.rss
+USERDEP__FLASHSMS_CAPTION="\ONLINE\FLASHSMS102\DATA\FLASHSMS.L25"\
+ "\ONLINE\FLASHSMS102\DATA\FLASHSMS.LOC"
+
+!IF  "$(CFG)" == "FLASHSMS - Win32 Uni Debug"
+
+# PROP Intermediate_Dir "\Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS\WINS"
+# Begin Custom Build - Building resources from Flashsms_caption.rss
+InputPath=\ONLINE\FLASHSMS102\DATA\S60\Flashsms_caption.rss
+
+BuildCmds= \
+	nmake -nologo -f "\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS.SUP.MAKE"\
+  "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS_CAPTION.r"
+
+"\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS_CAPTION.r25" : $(SOURCE) "$(INTDIR)"\
+ "$(OUTDIR)"
+   $(BuildCmds)
+# End Custom Build
+
+!ELSEIF  "$(CFG)" == "FLASHSMS - Win32 Uni Release"
+
+# PROP Intermediate_Dir "\Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS\WINS"
+# Begin Custom Build - Building resources from Flashsms_caption.rss
+InputPath=\ONLINE\FLASHSMS102\DATA\S60\Flashsms_caption.rss
+
+BuildCmds= \
+	nmake -nologo -f "\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS.SUP.MAKE"\
+  "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UREL\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS_CAPTION.r"
+
+"\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UREL\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS_CAPTION.r25" : $(SOURCE) "$(INTDIR)"\
+ "$(OUTDIR)"
+   $(BuildCmds)
+# End Custom Build
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=\ONLINE\FLASHSMS102\DATA\S60\Flashsms_caption.rss
+USERDEP__FLASHSMS_CAPTION="\ONLINE\FLASHSMS102\DATA\FLASHSMS.L54"\
+ "\ONLINE\FLASHSMS102\DATA\FLASHSMS.LOC"
+
+!IF  "$(CFG)" == "FLASHSMS - Win32 Uni Debug"
+
+# PROP Intermediate_Dir "\Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS\WINS"
+# Begin Custom Build - Building resources from Flashsms_caption.rss
+InputPath=\ONLINE\FLASHSMS102\DATA\S60\Flashsms_caption.rss
+
+BuildCmds= \
+	nmake -nologo -f "\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS.SUP.MAKE"\
+  "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS_CAPTION.r"
+
+"\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS_CAPTION.r54" : $(SOURCE) "$(INTDIR)"\
+ "$(OUTDIR)"
+   $(BuildCmds)
+# End Custom Build
+
+!ELSEIF  "$(CFG)" == "FLASHSMS - Win32 Uni Release"
+
+# PROP Intermediate_Dir "\Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS\WINS"
+# Begin Custom Build - Building resources from Flashsms_caption.rss
+InputPath=\ONLINE\FLASHSMS102\DATA\S60\Flashsms_caption.rss
+
+BuildCmds= \
+	nmake -nologo -f "\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS.SUP.MAKE"\
+  "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UREL\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS_CAPTION.r"
+
+"\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UREL\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS_CAPTION.r54" : $(SOURCE) "$(INTDIR)"\
+ "$(OUTDIR)"
+   $(BuildCmds)
+# End Custom Build
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=\ONLINE\FLASHSMS102\DATA\S60\Flashsms_caption.rss
+USERDEP__FLASHSMS_CAPTION="\ONLINE\FLASHSMS102\DATA\FLASHSMS.L64"\
+ "\ONLINE\FLASHSMS102\DATA\FLASHSMS.LOC"
+
+!IF  "$(CFG)" == "FLASHSMS - Win32 Uni Debug"
+
+# PROP Intermediate_Dir "\Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS\WINS"
+# Begin Custom Build - Building resources from Flashsms_caption.rss
+InputPath=\ONLINE\FLASHSMS102\DATA\S60\Flashsms_caption.rss
+
+BuildCmds= \
+	nmake -nologo -f "\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS.SUP.MAKE"\
+  "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS_CAPTION.r"
+
+"\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS_CAPTION.r64" : $(SOURCE) "$(INTDIR)"\
+ "$(OUTDIR)"
+   $(BuildCmds)
+# End Custom Build
+
+!ELSEIF  "$(CFG)" == "FLASHSMS - Win32 Uni Release"
+
+# PROP Intermediate_Dir "\Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS\WINS"
+# Begin Custom Build - Building resources from Flashsms_caption.rss
+InputPath=\ONLINE\FLASHSMS102\DATA\S60\Flashsms_caption.rss
+
+BuildCmds= \
+	nmake -nologo -f "\ONLINE\FLASHSMS102\GROUP\S60\FLASHSMS.SUP.MAKE"\
+  "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UREL\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS_CAPTION.r"
+
+"\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UREL\Z\SYSTEM\APPS\FLASHSMS\FLASHSMS_CAPTION.r64" : $(SOURCE) "$(INTDIR)"\
+ "$(OUTDIR)"
+   $(BuildCmds)
+# End Custom Build
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=\ONLINE\FLASHSMS102\GROUP\S60\Flashsms.uid.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=\ONLINE\FLASHSMS102\SRC\Base64.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=\ONLINE\FLASHSMS102\SRC\Csmshandler.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=\ONLINE\FLASHSMS102\SRC\Phone.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=\ONLINE\FLASHSMS102\SRC\Storage.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=\ONLINE\FLASHSMS102\SRC\Timeouttimer.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=\ONLINE\FLASHSMS102\SRC\S60\Aboutcontainer.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=\ONLINE\FLASHSMS102\SRC\S60\Aboutview.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=\ONLINE\FLASHSMS102\SRC\S60\Creditscontainer.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=\ONLINE\FLASHSMS102\SRC\S60\Creditsview.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=\ONLINE\FLASHSMS102\SRC\S60\Flashsms.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=\ONLINE\FLASHSMS102\SRC\S60\Flashsmsapplication.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=\ONLINE\FLASHSMS102\SRC\S60\Flashsmsappui.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=\ONLINE\FLASHSMS102\SRC\S60\Flashsmsdocument.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=\ONLINE\FLASHSMS102\SRC\S60\Settingscontainer.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=\ONLINE\FLASHSMS102\SRC\S60\Settingsview.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=\ONLINE\FLASHSMS102\SRC\S60\Splashcontainer.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=\ONLINE\FLASHSMS102\SRC\S60\Splashview.cpp
+# End Source File
+# End Group
+# Begin Group "Resource Files"
+
+# PROP Default_Filter "ico;cur;bmp;dlg;rc2;rct;bin;cnt;rtf;gif;jpg;jpeg;jpe"
+# End Group
+# Begin Group "Header Files"
+
+# PROP Default_Filter "h;hpp;hxx;hm;inl;fi;fd"
+# Begin Source File
+
+SOURCE=\ONLINE\FLASHSMS102\INC\S60\Creditsview.h
+# End Source File
+# Begin Source File
+
+SOURCE=\ONLINE\FLASHSMS102\INC\Timeoutnotifier.h
+# End Source File
+# Begin Source File
+
+SOURCE=\ONLINE\FLASHSMS102\INC\S60\Aboutcontainer.h
+# End Source File
+# Begin Source File
+
+SOURCE=\ONLINE\FLASHSMS102\INC\Phone.h
+# End Source File
+# Begin Source File
+
+SOURCE=\ONLINE\FLASHSMS102\INC\S60\Flashsms.pan
+# End Source File
+# Begin Source File
+
+SOURCE=\ONLINE\FLASHSMS102\INC\S60\Flashsmsappui.h
+# End Source File
+# Begin Source File
+
+SOURCE=\ONLINE\FLASHSMS102\INC\S60\Splashcontainer.h
+# End Source File
+# Begin Source File
+
+SOURCE=\ONLINE\FLASHSMS102\INC\S60\Settingscontainer.h
+# End Source File
+# Begin Source File
+
+SOURCE=\ONLINE\FLASHSMS102\INC\S60\Splashview.h
+# End Source File
+# Begin Source File
+
+SOURCE=\ONLINE\FLASHSMS102\INC\S60\Flashsms.hrh
+# End Source File
+# Begin Source File
+
+SOURCE=\ONLINE\FLASHSMS102\INC\Storage.h
+# End Source File
+# Begin Source File
+
+SOURCE=\ONLINE\FLASHSMS102\INC\Base64df.h
+# End Source File
+# Begin Source File
+
+SOURCE=\ONLINE\FLASHSMS102\INC\S60\Creditscontainer.h
+# End Source File
+# Begin Source File
+
+SOURCE=\ONLINE\FLASHSMS102\INC\S60\Flashsmsdocument.h
+# End Source File
+# Begin Source File
+
+SOURCE=\ONLINE\FLASHSMS102\INC\Base64.h
+# End Source File
+# Begin Source File
+
+SOURCE=\ONLINE\FLASHSMS102\INC\Csmshandler.h
+# End Source File
+# Begin Source File
+
+SOURCE=\ONLINE\FLASHSMS102\INC\Timeouttimer.h
+# End Source File
+# Begin Source File
+
+SOURCE=\ONLINE\FLASHSMS102\INC\S60\Flashsmsapplication.h
+# End Source File
+# Begin Source File
+
+SOURCE=\ONLINE\FLASHSMS102\INC\S60\Aboutview.h
+# End Source File
+# Begin Source File
+
+SOURCE=\ONLINE\FLASHSMS102\INC\S60\Settingsview.h
+# End Source File
+# End Group
+# End Target
+# End Project

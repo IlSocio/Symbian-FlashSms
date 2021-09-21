@@ -1,0 +1,31 @@
+
+#define ELanguage               ELangRussian
+
+#define txt_caption_string 	"FlashSMS"
+#define txt_srt_caption_string 	"FlashSMS"
+
+// Comuni
+#define txt_newsms		"Новое SMS"
+#define txt_credits 		"Об авторах"
+#define txt_exit 		"Выход"
+
+// Vista About
+#define txt_about 		"FlashSMS"
+#define txt_donate 		"Пожертвование"
+#define txt_req_code 		"Request Code:"
+#define txt_don_code 		"Donation Code:"
+
+// Vista Settings
+#define txt_send 		"Отправить"
+#define txt_settings 		"FlashSMS"
+
+#define txt_phone  		"Абонент:"
+
+// MESSAGGIO INFO FIRST BOOT
+#define txt_first_boot		"После пожертвования будет доступна поддержка адресной книги"
+
+#define txt_really_exit		"Выйти из FlashSms?"
+
+// ERRORI
+#define txt_err_no_number	"Номер абонента пуст"
+	

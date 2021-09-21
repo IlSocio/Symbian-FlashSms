@@ -1,0 +1,32 @@
+﻿CHARACTER_SET UTF8
+
+#define ELanguage               ELangItalian
+
+#define txt_caption_string 	"FlashSMS"
+#define txt_srt_caption_string 	"FlashSMS"
+
+// Comuni
+#define txt_credits 		"Credits"
+#define txt_exit 		"Esci"
+
+#define txt_newsms		"Nuovo SMS"
+// Vista About
+#define txt_about 		"FlashSMS"
+#define txt_donate 		"Supporto"
+#define txt_req_code 		"Codice Richiesta:"
+#define txt_don_code 		"Codice Donazione:"
+
+// Vista Settings
+#define txt_send 		"Invia"
+#define txt_settings 		"FlashSMS"
+
+#define txt_phone  		"Destinatario:"
+
+// MESSAGGIO INFO FIRST BOOT
+#define txt_first_boot		"Dopo una donazione sara' attivata la gestione Rubrica"
+
+#define txt_really_exit		"Uscire da FlashSMS?"
+
+// ERRORI
+#define txt_err_no_number	"Nessun Numero Impostato"
+	

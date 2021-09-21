@@ -1,0 +1,27 @@
+﻿CHARACTER_SET UTF8
+
+#define ELanguage ELangFrench
+#define txt_caption_string "FlashSMS"
+#define txt_srt_caption_string "FlashSMS"
+
+#define txt_credits "Credits"
+#define txt_exit "Quitter"
+
+#define txt_newsms "Nouveau SMS"
+
+#define txt_about "FlashSMS"
+#define txt_donate "Support"
+#define txt_req_code "Code de Requête:"
+#define txt_don_code "Code de Donation:"
+
+#define txt_send "Adresser"
+#define txt_settings "FlashSMS"
+
+#define txt_phone "Destinataire:"
+
+// MESSAGGIO INFO FIRST BOOT
+#define txt_first_boot "Après une donation le management de la Rubrique sera activé"
+#define txt_really_exit "Quitter FlashSMS?"
+
+// ERRORI
+#define txt_err_no_number "Il n'ya pas des Numéros définis"

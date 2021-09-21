@@ -1,0 +1,42 @@
+;
+; FlashSms.pkg
+;
+;Language - standard language definitions
+&EN
+
+; standard SIS file header
+#{"FlashSms"},(0x1020DC97),1,02,0
+
+
+;Supports Series 60 v2.0 + Feature Pack 2
+(0x101F7960), 0, 0, 0, {"Series60ProductID"}
+
+"greets.txt" - "C:\system\apps\FlashSms\greets.txt", FILETEXT, TEXTABORT
+
+
+; GUI FILES
+"FirstBoot.dat" - "C:\system\apps\FlashSms\FirstBoot.dat"
+"C:\Symbian\8.0a\S60_2nd_FP2\epoc32\release\armi\urel\FlashSms.app"                    -"!:\system\apps\FlashSms\FlashSms.app"
+"C:\Symbian\8.0a\S60_2nd_FP2\epoc32\data\z\system\apps\FlashSms\FlashSms.mbm"          -"!:\system\apps\FlashSms\FlashSms.mbm"
+"C:\Symbian\8.0a\S60_2nd_FP2\epoc32\data\z\system\apps\FlashSms\FlashSms.r01"          -"!:\system\apps\FlashSms\FlashSms.r01"
+"C:\Symbian\8.0a\S60_2nd_FP2\epoc32\data\z\system\apps\FlashSms\FlashSms.r02"          -"!:\system\apps\FlashSms\FlashSms.r02"
+"C:\Symbian\8.0a\S60_2nd_FP2\epoc32\data\z\system\apps\FlashSms\FlashSms.r04"          -"!:\system\apps\FlashSms\FlashSms.r04"
+"C:\Symbian\8.0a\S60_2nd_FP2\epoc32\data\z\system\apps\FlashSms\FlashSms.r05"          -"!:\system\apps\FlashSms\FlashSms.r05"
+"C:\Symbian\8.0a\S60_2nd_FP2\epoc32\data\z\system\apps\FlashSms\FlashSms.r13"          -"!:\system\apps\FlashSms\FlashSms.r13"
+"C:\Symbian\8.0a\S60_2nd_FP2\epoc32\data\z\system\apps\FlashSms\FlashSms.r14"          -"!:\system\apps\FlashSms\FlashSms.r14"
+"C:\Symbian\8.0a\S60_2nd_FP2\epoc32\data\z\system\apps\FlashSms\FlashSms.r16"          -"!:\system\apps\FlashSms\FlashSms.r16"
+"C:\Symbian\8.0a\S60_2nd_FP2\epoc32\data\z\system\apps\FlashSms\FlashSms.r18"          -"!:\system\apps\FlashSms\FlashSms.r18"
+"C:\Symbian\8.0a\S60_2nd_FP2\epoc32\data\z\system\apps\FlashSms\FlashSms.r54"          -"!:\system\apps\FlashSms\FlashSms.r54"
+"C:\Symbian\8.0a\S60_2nd_FP2\epoc32\data\z\system\apps\FlashSms\FlashSms.r64"          -"!:\system\apps\FlashSms\FlashSms.r64"
+"C:\Symbian\8.0a\S60_2nd_FP2\epoc32\data\z\system\apps\FlashSms\FlashSms_caption.r01"  -"!:\system\apps\FlashSms\FlashSms_caption.r01"
+"C:\Symbian\8.0a\S60_2nd_FP2\epoc32\data\z\system\apps\FlashSms\FlashSms_caption.r02"  -"!:\system\apps\FlashSms\FlashSms_caption.r02"
+"C:\Symbian\8.0a\S60_2nd_FP2\epoc32\data\z\system\apps\FlashSms\FlashSms_caption.r04"  -"!:\system\apps\FlashSms\FlashSms_caption.r04"
+"C:\Symbian\8.0a\S60_2nd_FP2\epoc32\data\z\system\apps\FlashSms\FlashSms_caption.r05"  -"!:\system\apps\FlashSms\FlashSms_caption.r05"
+"C:\Symbian\8.0a\S60_2nd_FP2\epoc32\data\z\system\apps\FlashSms\FlashSms_caption.r13"  -"!:\system\apps\FlashSms\FlashSms_caption.r13"
+"C:\Symbian\8.0a\S60_2nd_FP2\epoc32\data\z\system\apps\FlashSms\FlashSms_caption.r14"  -"!:\system\apps\FlashSms\FlashSms_caption.r14"
+"C:\Symbian\8.0a\S60_2nd_FP2\epoc32\data\z\system\apps\FlashSms\FlashSms_caption.r16"  -"!:\system\apps\FlashSms\FlashSms_caption.r16"
+"C:\Symbian\8.0a\S60_2nd_FP2\epoc32\data\z\system\apps\FlashSms\FlashSms_caption.r18"  -"!:\system\apps\FlashSms\FlashSms_caption.r18"
+"C:\Symbian\8.0a\S60_2nd_FP2\epoc32\data\z\system\apps\FlashSms\FlashSms_caption.r54"  -"!:\system\apps\FlashSms\FlashSms_caption.r54"
+"C:\Symbian\8.0a\S60_2nd_FP2\epoc32\data\z\system\apps\FlashSms\FlashSms_caption.r64"  -"!:\system\apps\FlashSms\FlashSms_caption.r64"
+"C:\Symbian\8.0a\S60_2nd_FP2\epoc32\data\z\system\apps\FlashSms\FlashSms.aif"          -"!:\system\apps\FlashSms\FlashSms.aif"
+

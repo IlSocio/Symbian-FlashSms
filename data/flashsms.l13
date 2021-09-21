@@ -1,0 +1,31 @@
+﻿CHARACTER_SET UTF8
+
+#define ELanguage               ELangPortuguese
+
+#define txt_caption_string 	"FlashSMS"
+#define txt_srt_caption_string 	"FlashSMS"
+
+// Comuni
+#define txt_newsms		"Nova SMS"
+#define txt_credits 		"Creditos"
+#define txt_exit 		"Saida"
+
+// Vista About
+#define txt_about 		"FlashSMS"
+#define txt_donate 		"Doação"
+#define txt_req_code 		"Pedido Codigo:"
+#define txt_don_code 		"Codigo de Doação:"
+
+// Vista Settings
+#define txt_send 		"Enviar"
+#define txt_settings 		"FlashSMS"
+
+#define txt_phone  		"Destinatario:"
+
+// MESSAGGIO INFO FIRST BOOT
+#define txt_first_boot		"Despois de  doar ficara activo a lista de Telefone"
+
+#define txt_really_exit		"Saida de FlashSMS?"
+
+// ERRORI
+#define txt_err_no_number	"Numero do Destinatario Vazio"

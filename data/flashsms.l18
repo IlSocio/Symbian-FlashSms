@@ -1,0 +1,32 @@
+﻿CHARACTER_SET UTF8
+
+#define ELanguage               ELangDutch
+
+#define txt_caption_string 	"FlashSMS"
+#define txt_srt_caption_string 	"FlashSMS"
+
+// Comuni
+#define txt_newsms		"Nieuwe SMS"
+#define txt_credits 		"Credits"
+#define txt_exit 		"Afsluiten"
+
+// Vista About
+#define txt_about 		"FlashSMS"
+#define txt_donate 		"Doneren"
+#define txt_req_code 		"Vraag Code:"
+#define txt_don_code 		"Donatie Code:"
+
+// Vista Settings
+#define txt_send 		"Zend"
+#define txt_settings 		"FlashSMS"
+
+#define txt_phone  		"Ontvanger:"
+
+// MESSAGGIO INFO FIRST BOOT
+#define txt_first_boot		"Na donatie wordt het telefoonboek geaktiveerd"
+
+#define txt_really_exit		"FlashSMS afluiten?"
+
+// ERRORI
+#define txt_err_no_number	"Vul ontvanger in"
+	

@@ -1,0 +1,371 @@
+/* Copyright (c) 2004, Nokia. All rights reserved */
+
+
+NAME FLAS
+
+//  INCLUDES
+#include <eikon.rh>
+#include <avkon.rh>
+#include <avkon.rsg>
+#include <flashsms.mbg> // Contiene i numeri delle icone di flashsms.mbm
+
+//#include <avkon.mbg>
+//#include <eikon.rsg>
+//#include <aknexspane.mbg>
+
+#include "flashsms.hrh"
+#include "flashsms.loc" 
+
+
+// -----------------------------------------------------------------------------
+//
+//    Define the resource file signature
+//    This resource should be empty.
+//
+// -----------------------------------------------------------------------------
+//
+RESOURCE RSS_SIGNATURE
+    {
+    }
+
+// -----------------------------------------------------------------------------
+//
+//    Default Document Name
+//
+// -----------------------------------------------------------------------------
+//
+RESOURCE TBUF r_flashsms_default_docname
+    {
+    buf="FLAS";
+    }
+
+// -----------------------------------------------------------------------------
+//
+//    Define default menu and CBA key.
+//
+// -----------------------------------------------------------------------------
+//
+RESOURCE EIK_APP_INFO
+    {
+    status_pane = r_status_pane;
+//    menubar = r_flashsms_menubar1;
+//    cba = R_AVKON_SOFTKEYS_OPTIONS_EXIT;
+    }
+
+
+// -----------------------------------------------------------------------------
+//    Status pane definition
+//
+// -----------------------------------------------------------------------------
+//
+RESOURCE STATUS_PANE_APP_MODEL r_status_pane
+{
+    panes=
+        {
+        SPANE_PANE
+            {
+            id = EEikStatusPaneUidNavi;
+            type = EAknCtNaviPane;
+			//type = EAknCtTitlePane;
+            resource = r_navi_decorator;
+            }
+        };
+}
+
+RESOURCE NAVI_DECORATOR r_navi_decorator
+    {
+    type = ENaviDecoratorControlTabGroup;
+    control = TAB_GROUP
+        {
+        tab_width = EAknTabWidthWithOneTab;
+        active = 0;
+        tabs = {
+            TAB 
+                {
+                id = EFlashSms1Tab; 
+                txt = "";
+//				bmpfile = "\\system\\apps\\flashsms\\flashsms.mbm";
+//				bmpid =	EMbmFlashsmsAbout;
+//				bmpmask = EMbmFlashsmsAbout_mask;
+                }
+//            TAB
+  //              {
+   //             id = EFlashSms2Tab;
+//               txt = txt_tab2;
+//				bmpfile = "\\system\\apps\\flashsms\\flashsms.mbm";
+//				bmpid =	EMbmFlashsmsSettings;
+//				bmpmask = EMbmFlashsmsSettings_mask;
+ //               }
+            };
+        };
+    }
+
+
+
+RESOURCE AVKON_VIEW r_flashsms_view_credits
+    {
+    menubar = r_flashsms_menubar0;
+    cba = R_AVKON_SOFTKEYS_BACK;
+    }
+
+
+RESOURCE MENU_BAR r_flashsms_menubar0
+    {
+        titles =
+        {
+            MENU_TITLE
+            {
+            }
+        };
+    }
+
+
+// -----------------------------------------------------------------------------
+//
+//    r_flashsms_view1
+//    Define view 1
+//
+// -----------------------------------------------------------------------------
+//
+RESOURCE AVKON_VIEW r_flashsms_view1
+    {
+    menubar = r_flashsms_menubar1;
+    cba = R_AVKON_SOFTKEYS_OPTIONS_EXIT;
+    }
+
+// -----------------------------------------------------------------------------
+//
+//   r_flashsms_menubar1
+//   Menu title definition
+//
+// -----------------------------------------------------------------------------
+//
+RESOURCE MENU_BAR r_flashsms_menubar1
+    {
+        titles =
+        {
+            MENU_TITLE
+            {
+                menu_pane = r_flashsms_menu1;
+            }
+        };
+    }
+
+// -----------------------------------------------------------------------------
+//
+//   r_flashsms_menu1
+//   Menu for "Options"
+//
+// -----------------------------------------------------------------------------
+//
+RESOURCE MENU_PANE r_flashsms_menu1
+    {
+        items =
+        {
+            MENU_ITEM
+            {
+                command = ENewSms;
+                txt = txt_newsms;
+            },
+            MENU_ITEM
+            {
+                command = EDonate;
+                txt = txt_donate;
+            },
+            MENU_ITEM
+            {
+                command = ECredits;
+                txt = txt_credits;
+            },
+            MENU_ITEM
+            {
+                command = EAknSoftkeyExit;
+                txt = txt_exit;
+            }
+        };
+    }
+
+
+
+
+// -----------------------------------------------------------------------------
+//
+//    r_flashsms_view2
+//    Define view 2
+//
+// -----------------------------------------------------------------------------
+//
+RESOURCE AVKON_VIEW r_flashsms_view2
+    {
+    menubar = r_flashsms_menubar2;
+    cba = R_AVKON_SOFTKEYS_OPTIONS_BACK;
+    }
+
+// -----------------------------------------------------------------------------
+//
+//   r_flashsms_menubar2
+//   Menu title definition
+//
+// -----------------------------------------------------------------------------
+//
+RESOURCE MENU_BAR r_flashsms_menubar2
+    {
+        titles =
+        {
+            MENU_TITLE
+            {
+                menu_pane = r_flashsms_menu2;
+            }
+        };
+    }
+
+// -----------------------------------------------------------------------------
+//
+//   r_flashsms_menu2
+//   Menu for "Options"
+//
+// -----------------------------------------------------------------------------
+//
+RESOURCE MENU_PANE r_flashsms_menu2
+    {
+    items =
+        {
+            MENU_ITEM
+            {
+                command = ESend;
+                txt = txt_send;
+            },
+            MENU_ITEM
+            {
+                command = EAknSoftkeyExit;
+                txt = txt_exit;
+            }
+        };
+    }
+
+
+
+RESOURCE DIALOG r_really_exit
+{
+	flags = EGeneralQueryFlags;
+	buttons = R_AVKON_SOFTKEYS_YES_NO;
+	items =
+	{
+	DLG_LINE
+		{
+		type = EAknCtQuery;
+		id = EGeneralQuery;
+		control = AVKON_CONFIRMATION_QUERY
+			{
+			layout = EConfirmationQueryLayout;
+			label = txt_really_exit;
+			//bmpfile = AKNEXQUERY_BMPFILE_NAME;
+			//bmpid = 0;
+			//bmpmask = AKNEXQUERY_BITMAP_MASK_FLAG;
+			};
+		}
+	};
+}
+
+
+RESOURCE DIALOG r_donate_dialog
+    {
+    flags = EGeneralQueryFlags;
+    buttons = R_AVKON_SOFTKEYS_OK_CANCEL;
+    items =
+        {
+        DLG_LINE
+            {
+            type = EAknCtMultilineQuery;
+            id = EMultilineFirstLine;
+            itemflags = EEikDlgItemNonFocusing;
+            control = AVKON_DATA_QUERY
+                {
+                layout = EMultiDataFirstEdwin;
+                label = txt_req_code;
+                control = EDWIN
+                    {
+                    flags = EEikEdwinNoHorizScrolling | EEikEdwinResizable;
+                    width = 10;
+                    lines = 1;
+                    maxlength = 10;
+                    };
+                };
+            },
+        DLG_LINE
+            {
+            type = EAknCtMultilineQuery;
+            id = EMultilineSecondLine;
+            control = AVKON_DATA_QUERY
+                {
+                layout = EMultiDataSecondEdwin;
+                label = txt_don_code;
+                control = EDWIN
+                    {
+                    flags = EEikEdwinNoHorizScrolling | EEikEdwinResizable;
+                    width = 10;
+                    lines = 1;
+                    maxlength = 10;
+                    };
+                };
+            }
+        };
+
+    }
+
+
+
+RESOURCE EDWIN r_sms_editor
+    {
+    flags = EEikEdwinAllowUndo;
+    width = 20;
+    lines = 10;
+    maxlength = EMaxMessageLength;
+	default_input_mode = EAknEditorTextInputMode;
+    }
+
+RESOURCE DIALOG r_number
+{
+	flags = EGeneralQueryFlags;
+	buttons = R_AVKON_SOFTKEYS_OK_CANCEL;
+	items =
+	{
+	DLG_LINE
+		{
+		type = EAknCtQuery;
+		id = EGeneralQuery;
+		control = AVKON_DATA_QUERY
+			{
+			layout = EPhoneLayout;
+			label = txt_phone;
+			control = EDWIN
+				{
+				width = 5;
+				lines = 1;
+				maxlength = EMaxTelephoneNumberLength;
+				};
+			};	
+		}
+	};
+}
+
+
+// -----------------------------------------------------------------------------
+//
+// Resources for messages.
+//
+// -----------------------------------------------------------------------------
+//
+RESOURCE TBUF32 r_phone_number  { buf=txt_phone; }
+RESOURCE TBUF32 r_about    { buf=txt_about; }
+RESOURCE TBUF32 r_settings { buf=txt_settings; }
+
+// INFO FIRST BOOT
+RESOURCE TBUF64 r_first_boot  { buf=txt_first_boot; }
+
+// ERRORI
+RESOURCE TBUF32 r_err_no_number { buf=txt_err_no_number; }
+
+
+
+
